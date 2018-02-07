@@ -1,0 +1,88 @@
+/*#intro {
+    background-image: url("miguel%20house%20sale.JPG");
+}*/
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+<style>
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+</style> 
+html {
+    background-color: black;
+    color: red;
+}
+#intro {
+        
+        background: url("Living%20room.JPG");
+        background-repeat:no-repeat;
+        background-position: top center;
+        background-attachment: fixed;
+        background-color: black;
+        color: black;
+        background-size: cover;
+}
+
+#dadpic {
+        min-width: 150px;
+}
+
+.btn {
+    outline: none;
+}
+
+#ironwoodlogo {
+    width: 50%;
+    
+}
+.nav {
+    text-align: center;
+}
+
+
+#prof {
+    background-color: rgba(11, 34, 63, 0.5);
+    text-align: center;
+    position: static;
+    color:white;
+}
+
+.logo {
+    
+    background-color: transparent;
+    text-align: center;
+    
+}
+
+button {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    
+}
+
+.fa {
+    font-size: 300%;
+    border-radius: 50%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#bigNav {
+    background-color: #0B223F;
+}
+@media screen and (max-width: 768px) {
+    #bigNav {
+        display: none;
+    }
+    #prof {
+        background-color: rgba(11, 34, 63, 0.7);
+    }
+}
+
+@media screen and (max-width: 2088px) {
+    button {
+        font-size: 25px;
+    }
+    
+}
